@@ -3,87 +3,244 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio website</title>
+    <title>SAE Tour & Travel</title>
 
-    <!-- link css -->
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <!-- Navbar Start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Porto<span>Folio</span>.</a>
+      <a href="#" class="navbar-logo"
+        >SAE <span id="logo-span">Tour & Travel</span></a
+      >
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
-        <a href="#ourpackage">Our Package</a>
-        <a href="#callus">Call Us</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#destinasi">Destinasi</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <!-- navbar logo feather -->
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
     <!-- Navbar End -->
 
-    <!-- section -->
+    <!-- Hero section -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Your Trusted Travel Agent's</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-          repellendus.
-        </p>
-        <a href="#" class="cta">Beli Sekarang</a>
+        <img src="assets/slidebar/bali1.jpg" alt="bali" />
+        <img src="assets/slidebar/bromo.jpg" alt="bromo" />
+        <img src="assets/slidebar/jogja1.jpg" alt="jogja" />
+        <img src="assets/slidebar/lombok1.jpg" alt="lombok" />
+        <img src="assets/slidebar/slide.jpg" alt="raja-ampat" />
       </main>
     </section>
-    <!-- section End -->
+    <!-- Hero section End -->
 
     <!-- About Section start -->
     <section id="about" class="about">
       <h2><span>Tentang</span> Kami</h2>
 
-      <div class="row">
+      <div class="row1">
         <div class="about-img">
-          <img src="img/tentang-kami.jpg" alt="Tentang kami" />
-        </div>
-        <div class="content">
-          <h3>Kenapa memilih kopi Kami?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga
-            magni autem ipsam quis mollitia ullam soluta similique hic qui.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quam id incidunt labore nam minus totam amet veritatis. Minus, quia.
+          <img
+            src="assets/tentang-kami/penyedia-perjalanan-terbaik.jpg"
+            alt="penyedia-perjalanan-terbaik"
+          />
+          <h3 class="about-title">Penyedia Perjalanan Terbaik</h3>
+          <p class="about-descript">
+            Kami berkomitmen menjadikan setiap liburan Anda penuh cerita
+            berharga. Dengan perhatian penuh pada pada memori dan pengalaman
+            Anda, kami memastikan setiap langkah liburan Anda berjalan mulus dan
+            penuh kebahagiaan.
           </p>
         </div>
       </div>
-    </section>
-    <!-- About Section end -->
-
-    <!-- About Section start -->
-    <section id="about" class="about">
-      <h2><span>Tentang</span> Kami</h2>
-
-      <div class="row">
+      <div class="row2">
         <div class="about-img">
-          <img src="img/tentang-kami.jpg" alt="Tentang kami" />
-        </div>
-        <div class="content">
-          <h3>Kenapa memilih kopi Kami?</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga
-            magni autem ipsam quis mollitia ullam soluta similique hic qui.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quam id incidunt labore nam minus totam amet veritatis. Minus, quia.
+          <img
+            src="assets/tentang-kami/agent-berpengalaman.jpg"
+            alt="agent-berpengalaman"
+          />
+          <h3 class="about-title">Layanan Agent Berpengalaman</h3>
+          <p class="about-descript">
+            Dengan jam terbang yang tinggi, tim kami siap memberikan solusi
+            terbaik untuk setiap kebutuhan Anda. Kepuasan pelanggan adalah
+            prioritas kami, terbukti dari banyaknya pelanggan yang terus kembali
+            setelah menggunakan jasa kami. Setiap tantangan yang kami hadapi
+            telah memperkuat komitmen kami untuk memberikan layanan luar biasa.
           </p>
         </div>
       </div>
+      <div class="row3">
+        <div class="about-img">
+          <img
+            src="assets/tentang-kami/pelayanan-terbaik.jpg"
+            alt="pelayanan-terbaik"
+          />
+          <h3 class="about-title">Pelayanan Premium dan Personal</h3>
+          <p class="about-descript">
+            Rasakan perbedaan dengan pelayanan terbaik dan personal yang kami
+            tawarkan! Kami mengutamakan kebutuhan unik setiap pelanggan,
+            memastikan setiap pengalaman Anda selama perjalanan terasa istimewa.
+          </p>
+        </div>
+      </div>
+      <div class="row4">
+        <div class="about-img">
+          <img
+            src="assets/tentang-kami/bebas-masalah.jpg"
+            alt="bebas-masalah"
+          />
+          <h3 class="about-title">Nikmati Liburan Tanpa Beban</h3>
+          <p class="about-descript">
+            Rasakan kebebasan sejati saat berlibur! Dengan pelayanan menyeluruh
+            di setiap aspek, Anda tidak perlu repot mengurus berbagai hal.
+            Biarkan kami yang menangani semua detail, sehingga Anda bisa fokus
+            menikmati setiap momen berharga.
+          </p>
+        </div>
     </section>
     <!-- About Section end -->
 
-    <!-- Footer Start -->
-    <footer>
-      <h3>Terima Kasih Telah Berkunjung</h3>
-    </footer>
-    <!-- Footer end -->
+    <!-- destinasi section start -->
+    <section id="destinasi" class="destinasi">
+      <h2>Destinasi</h2>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/bali/bedugul.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/bali/gunung-batur-bali.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/bali/Kelingking-beach-bali.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="assets/bali/pantai-sanur-bali.jpg" style="width:100%">
+        </div>
+
+        <div class="destinasi1">
+          <h3>Bali</h3>
+          <p>Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di antaranya Pulau Dewata dan Pulau Seribu Pura.</p>
+        </div>
+
+      </div>
+      <br>
+      <div class="slideshow-container2">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/jogja/prambanan1-jogja.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/jogja/Pantai-Parangtritis-jogja.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/jogja/obelix-hill-jogja.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="assets/jogja/malioboro-jogja.jpg" style="width:100%">
+        </div>
+
+        <div class="destinasi2">
+          <h3>jogja</h3>
+          <p>Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di antaranya Pulau Dewata dan Pulau Seribu Pura.</p>
+        </div>
+
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- Kontak section start -->
+    <!-- <section id="kontak" class="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id
+        quia odio? Ipsa, perferendis! Nam!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2949.413713739805!2d111.55480844190943!3d-7.228576580905007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1746889857489!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"> </i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"> </i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"> </i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section> -->
+    <!-- Kontak section end -->
+
+    <!-- footer start -->
+    <!-- <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="github"></i></a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">mochammadnanangutomo</a> | &copy; 2025.</p>
+      </div>
+    </footer> -->
+    <!-- footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my Javascript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
