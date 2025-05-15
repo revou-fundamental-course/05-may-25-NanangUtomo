@@ -31,7 +31,6 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#destinasi">Destinasi</a>
-        <a href="#kontak">Kontak</a>
       </div>
 
       <!-- navbar logo feather -->
@@ -43,36 +42,82 @@
 
     <!-- Hero section -->
     <section class="hero" id="home">
-      <main class="content">
-        <img src="assets/slidebar/bali1.jpg" alt="bali" />
-        <img src="assets/slidebar/bromo.jpg" alt="bromo" />
-        <img src="assets/slidebar/jogja1.jpg" alt="jogja" />
-        <img src="assets/slidebar/lombok1.jpg" alt="lombok" />
-        <img src="assets/slidebar/slide.jpg" alt="raja-ampat" />
-      </main>
+      <!-- <div class="slideshow-container"> -->
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 5</div>
+          <img src="assets/slidebar/bali1.jpg" style="width:100%" class="slide-img">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 5</div>
+          <img src="assets/slidebar/bromo.jpg" style="width:100%" class="slide-img">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 5</div>
+          <img src="assets/slidebar/jogja1.jpg" style="width:100%" class="slide-img">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 5</div>
+          <img src="assets/slidebar/lombok1.jpg" style="width:100%" class="slide-img">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 5</div>
+          <img src="assets/slidebar/slide.jpg" style="width:100%" class="slide-img">
+        </div>
     </section>
     <!-- Hero section End -->
 
+    <!-- Kontak section start -->     
+     <section class="kontak" id="kontak">
+      <div class="row">
+        <form action="" id="form">
+          <h2><span>Kontak</span> Kami</h2>
+          <div class="input-group">
+            <i data-feather="user"> </i>
+            <input type="text" placeholder="nama" id="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"> </i>
+            <input type="text" placeholder="email" id="email"/>
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"> </i>
+            <input type="number" placeholder="no hp" id="hp"/>
+          </div>
+          <div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+          </div>
+        </form>
+      </div>
+     </section> 
+      
+    <!-- Kontak section end -->
+    
     <!-- About Section start -->
     <section id="about" class="about">
       <h2><span>Tentang</span> Kami</h2>
 
-      <div class="row1">
+      <div class="row">
         <div class="about-img">
           <img
             src="assets/tentang-kami/penyedia-perjalanan-terbaik.jpg"
             alt="penyedia-perjalanan-terbaik"
           />
-          <h3 class="about-title">Penyedia Perjalanan Terbaik</h3>
-          <p class="about-descript">
-            Kami berkomitmen menjadikan setiap liburan Anda penuh cerita
-            berharga. Dengan perhatian penuh pada pada memori dan pengalaman
-            Anda, kami memastikan setiap langkah liburan Anda berjalan mulus dan
-            penuh kebahagiaan.
-          </p>
+          <div class="content">
+            <h3 class="about-title">Penyedia Perjalanan Terbaik</h3>
+            <p class="about-descript">
+              Kami berkomitmen menjadikan setiap liburan Anda penuh cerita
+              berharga. Dengan perhatian penuh pada pada memori dan pengalaman
+              Anda, kami memastikan setiap langkah liburan Anda berjalan mulus dan
+              penuh kebahagiaan.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row2">
+      <div class="row">
         <div class="about-img">
           <img
             src="assets/tentang-kami/agent-berpengalaman.jpg"
@@ -88,7 +133,7 @@
           </p>
         </div>
       </div>
-      <div class="row3">
+      <div class="row">
         <div class="about-img">
           <img
             src="assets/tentang-kami/pelayanan-terbaik.jpg"
@@ -102,7 +147,7 @@
           </p>
         </div>
       </div>
-      <div class="row4">
+      <div class="row">
         <div class="about-img">
           <img
             src="assets/tentang-kami/bebas-masalah.jpg"
@@ -122,77 +167,43 @@
     <!-- destinasi section start -->
     <section id="destinasi" class="destinasi">
       <h2>Destinasi</h2>
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
+        <p>
+        Indonesia menawarkan banyak pilihan wisata menarik, mulai dari pantai yang indah, gunung yang menantang, hingga situs sejarah dan budaya yang kaya. Beberapa destinasi wisata populer di Indonesia antara lain adalah Pulau Bali, Pulau Komodo, Raja Ampat, dan Candi Borobudur.
+      </p>
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="assets/bali/bedugul.jpg" style="width:100%">
+      <div class="row">
+        <div class="menu-card">
+          <img src="assets/bali/Kelingking-beach-bali.jpg" alt="bali" class="menu-card-img" />
+          <h3 class="menu-card-title">Bali</h3>
+          <p class="menu-card-price">Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
         </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="assets/bali/gunung-batur-bali.jpg" style="width:100%">
+        <div class="menu-card">
+          <img src="assets/jogja/malioboro-jogja.jpg" alt="jogja" class="menu-card-img" />
+          <h3 class="menu-card-title">Yogyakarta</h3>
+          <p class="menu-card-price">Yogyakarta menawarkan pengalaman wisata yang lengkap, mulai dari keindahan alam, kekayaan sejarah, hingga budaya yang masih lestari</p>
         </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="assets/bali/Kelingking-beach-bali.jpg" style="width:100%">
+        <div class="menu-card">
+          <img src="assets/labuan-bajo/pulau-komodo-bajo.jpg" alt="labuan-bajo" class="menu-card-img" />
+          <h3 class="menu-card-title">Labuan Bajo</h3>
+          <p class="menu-card-price">Labuan Bajo manawarkan salah satu keindahan senja yang terbaik di Indonesia, Mengunjungi Labuan Bajo, tentu saja tak terpisah dari Pulau Komodo yang menyimpan keindahan alam yang magis dan hewan purba yang mendunia</p>
         </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 4</div>
-          <img src="assets/bali/pantai-sanur-bali.jpg" style="width:100%">
+        <div class="menu-card">
+          <img src="assets/lombok/gunung-rinjani-lombok.jpg" alt="lombok" class="menu-card-img" />
+          <h3 class="menu-card-title">Pulau Lombok</h3>
+          <p class="menu-card-price">Pulau Lombok datang dari pesona yang dimilikinya. Alam, budaya, dan tradisi melebur jadi satu menawarkan pengalaman yang unik bagi mereka yang berlibur</p>
         </div>
-
-        <div class="destinasi1">
-          <h3>Bali</h3>
-          <p>Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di antaranya Pulau Dewata dan Pulau Seribu Pura.</p>
+        <div class="menu-card">
+          <img src="assets/raja-ampat/raja-ampat.jpg" alt="raja-ampat" class="menu-card-img" />
+          <h3 class="menu-card-title">Raja Ampat</h3>
+          <p class="menu-card-price">Raja Ampat adalah sebuah kabupaten di Provinsi Papua Barat, Indonesia, yang terkenal sebagai salah satu surga bagi para penyelam dan pecinta petualangan</p>
         </div>
-
-      </div>
-      <br>
-      <div class="slideshow-container2">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="assets/jogja/prambanan1-jogja.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="assets/jogja/Pantai-Parangtritis-jogja.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="assets/jogja/obelix-hill-jogja.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 4</div>
-          <img src="assets/jogja/malioboro-jogja.jpg" style="width:100%">
-        </div>
-
-        <div class="destinasi2">
-          <h3>jogja</h3>
-          <p>Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di antaranya Pulau Dewata dan Pulau Seribu Pura.</p>
-        </div>
-
       </div>
     </section>
     <!-- menu section end -->
 
-    <!-- Kontak section start -->
-    <!-- <section id="kontak" class="kontak">
-      <h2><span>Kontak</span> Kami</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id
-        quia odio? Ipsa, perferendis! Nam!
-      </p>
-
+    <!-- Alamat section start -->
+    <section id="alamat" class="alamat">
+      <h2><span>Alamat</span> Kami</h2>
       <div class="row">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2949.413713739805!2d111.55480844190943!3d-7.228576580905007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1746889857489!5m2!1sid!2sid"
@@ -201,27 +212,12 @@
           referrerpolicy="no-referrer-when-downgrade"
           class="map"
         ></iframe>
-        <form action="">
-          <div class="input-group">
-            <i data-feather="user"> </i>
-            <input type="text" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"> </i>
-            <input type="text" placeholder="email" />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"> </i>
-            <input type="text" placeholder="no hp" />
-          </div>
-          <button type="submit" class="btn">Kirim Pesan</button>
-        </form>
       </div>
-    </section> -->
+    </section>
     <!-- Kontak section end -->
 
     <!-- footer start -->
-    <!-- <footer>
+    <footer>
       <div class="socials">
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="facebook"></i></a>
@@ -232,7 +228,7 @@
       <div class="credit">
         <p>Created by <a href="">mochammadnanangutomo</a> | &copy; 2025.</p>
       </div>
-    </footer> -->
+    </footer>
     <!-- footer end -->
 
     <!-- Feather Icons -->

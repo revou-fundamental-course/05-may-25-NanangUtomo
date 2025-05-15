@@ -29,5 +29,18 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// kontak
+function checkForm() {
+  var nama = document.getElementById("nama").value;
+  var email = document.getElementById("email").value;
+  var hp = document.getElementById("hp").value;
+
+  if (nama == "" || email == "" || hp == "") {
+    alert("form tidak boleh kosong");
+  } else {
+    alert("Data Berhasil Dikirim");
+  }
 }
